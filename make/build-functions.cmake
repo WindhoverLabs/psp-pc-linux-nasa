@@ -30,17 +30,4 @@
 # POSSIBILITY OF SUCH DAMAGE.
 #
 #############################################################################
-
-# Collect PSP includes and source
-set(PSP_INC_DIRS ${PSP_INC_DIRS} 
-    ${CMAKE_CURRENT_LIST_DIR}/../inc)
-
-set(PSP_UNIT_TEST_SRC_DIR ${CMAKE_CURRENT_LIST_DIR}/../unit_test)
-
-set(PSP_WB_UT_BSP_SRC ${PSP_UNIT_TEST_SRC_DIR}/bsp_start.c)
-
-set(PSP_BB_UT_BSP_SRC
-    ${PSP_UNIT_TEST_SRC_DIR}/bsp_ut.c
-    ${PSP_UNIT_TEST_SRC_DIR}/bsp_voltab.c 
-)
-
+ 
